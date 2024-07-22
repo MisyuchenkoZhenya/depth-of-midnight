@@ -14,7 +14,7 @@
 		"breadcrumb.activeSelectionForeground": "#E0E0E0",
 		"breadcrumb.background": "#0E0E16",
 		"breadcrumb.focusForeground": "#FFC837",
-		"breadcrumb.foreground": "#C0C0C0",
+		"breadcrumb.foreground": "#B2CCD6",
 		"breadcrumbPicker.background": "#12121B",
 
 		"button.background": "#FFC837",
@@ -33,23 +33,23 @@
 		"dropdown.foreground": "#C0C0C0",
 
 		"editor.background": "#0E0E16",
-		"editor.findMatchBackground": "#18181D",
-		"editor.findMatchHighlightBackground": "#2A2A2D",
-		"editor.findRangeHighlightBackground": "#202029",
+		"editor.findMatchBackground": "#E0E0E050",
+		"editor.findMatchHighlightBackground": "#4B4B55A0",
+		"editor.findRangeHighlightBackground": "#4B4B55A0",
 		"editor.foreground": "#E0E0E0",
-		"editor.hoverHighlightBackground": "#18181D",
+		"editor.hoverHighlightBackground": "#202029",
 		"editor.inactiveSelectionBackground": "#2A2A2D",
 		"editor.lineHighlightBackground": "#18181D",
 		"editor.lineHighlightBorder": "#202029",
 		"editor.rangeHighlightBackground": "#202029",
-		"editor.selectionBackground": "#4B4B55A0",
+		"editor.selectionBackground": "#4B4B55",
 		"editor.selectionHighlightBackground": "#4B4B55A0",
-		"editor.selectionHighlightBorder": "#FFA50050",
+		"editor.selectionHighlightBorder": "#E0E0E050",
 		"editor.snippetTabstopHighlightBackground": "#7fd96233",
 		"editor.wordHighlightBackground": "#4B4B5550",
-		"editor.wordHighlightBorder": "#FFC83780",
+		"editor.wordHighlightBorder": "#4B4B55",
 		"editor.wordHighlightStrongBackground": "#4B4B5550",
-		"editor.wordHighlightStrongBorder": "#FFA500",
+		"editor.wordHighlightStrongBorder": "#C0C0C0C0",
 
 		"editorBracketMatch.background": "#2A2A2D",
 		"editorBracketMatch.border": "#4B4B55",
@@ -350,8 +350,8 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"variable"
 			],
 			"settings": {
 				"foreground": "#C0C0C0"
@@ -388,8 +388,10 @@
 		{
 			"name": "Storage, Keyword",
 			"scope": [
-				"storage.type",
-				"keyword.type"
+				"keyword.control.flow",
+				"keyword.type",
+				"storage.modifier.async",
+				"storage.type"
 			],
 			"settings": {
 				"foreground": "#FF6682"
@@ -398,13 +400,12 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
+				"constant.other.color",
 				"keyword.operator",
 				"keyword.control",
-				"storage.modifier.async",
-				"constant.other.color",
-				"meta.tag",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"meta.tag"
 			],
 			"settings": {
 				"foreground": "#6CD7F7"
@@ -566,7 +567,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#6CD7F7"
+				"foreground": "#F78C6C"
 			}
 		},
 		{
