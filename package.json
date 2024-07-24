@@ -2,7 +2,7 @@
   "name": "depth-of-midnight",
   "displayName": "Depth of Midnight",
   "description": "The dark theme for midnight coding",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "SyntaxSpark",
   "engines": {
     "vscode": "^1.90.0"
