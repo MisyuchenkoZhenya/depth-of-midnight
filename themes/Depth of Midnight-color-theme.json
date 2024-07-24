@@ -5,10 +5,10 @@
 		"activityBar.activeBorder": "#FFC837",
 		"activityBar.background": "#0E0E18",
 		"activityBar.foreground": "#FFC837",
-		"activityBarBadge.background": "#FFA500",
+		"activityBarBadge.background": "#FFB700",
 		"activityBarBadge.foreground": "#0E0E18",
 
-		"badge.background": "#FFC837",
+		"badge.background": "#FFB700",
 		"badge.foreground": "#0E0E18",
 
 		"breadcrumb.activeSelectionForeground": "#E0E0E0",
@@ -19,7 +19,7 @@
 
 		"button.background": "#FFC837",
 		"button.foreground": "#0E0E18",
-		"button.hoverBackground": "#FFA500",
+		"button.hoverBackground": "#FFB700",
 		"button.secondaryHoverBackground": "#4B4B55A0",
 
 		"debugToolBar.background": "#0E0E18",
@@ -80,7 +80,7 @@
 		"editorOverviewRuler.errorForeground": "#FF4500",
 		"editorOverviewRuler.infoForeground": "#FFC837",
 		"editorOverviewRuler.modifiedForeground": "#FFD700",
-		"editorOverviewRuler.warningForeground": "#FFA500",
+		"editorOverviewRuler.warningForeground": "#FFB700",
 		"editorRuler.foreground": "#2A2A2D",
 		"editorStickyScroll.background": "#0E0E18",
 		"editorStickyScrollHover.background": "#202029",
@@ -88,7 +88,7 @@
 		"editorSuggestWidget.border": "#202029",
 		"editorSuggestWidget.foreground": "#C0C0C0",
 		"editorSuggestWidget.selectedBackground": "#18181D",
-		"editorWarning.foreground": "#FFA500",
+		"editorWarning.foreground": "#FFB700",
 		"editorWhitespace.foreground": "#4B4B55",
 		"editorWidget.background": "#12121D",
 		"editorWidget.border": "#202029",
@@ -104,13 +104,13 @@
 		"inputOption.activeBorder": "#FFA600C0",
 		"inputOption.activeForeground": "#FFC837",
 
-		"list.activeSelectionBackground": "#18181D",
+		"list.activeSelectionBackground": "#4B4B55A0",
 		"list.activeSelectionForeground": "#E0E0E0",
 		"list.focusBackground": "#18181D",
 		"list.focusForeground": "#E0E0E0",
 		"list.highlightForeground": "#FFC837",
-		"list.hoverBackground": "#202029",
-		"list.inactiveSelectionBackground": "#12121D",
+		"list.hoverBackground": "#4B4B5550",
+		"list.inactiveSelectionBackground": "#4B4B55A0",
 		"list.inactiveSelectionForeground": "#C0C0C0",
 
 		"menu.background": "#0E0E18",
@@ -136,7 +136,7 @@
 		"minimap.errorHighlight": "#FF4500",
 		"minimap.findMatchHighlight": "#2A2A2D",
 		"minimap.selectionHighlight": "#4B4B55A0",
-		"minimap.warningHighlight": "#FFA500",
+		"minimap.warningHighlight": "#FFB700",
 		"minimapGutter.addedBackground": "#00FF7F",
 		"minimapGutter.deletedBackground": "#FF4500",
 		"minimapGutter.modifiedBackground": "#FFD700",
@@ -167,7 +167,7 @@
 		"notifications.foreground": "#C0C0C0",
 		"notificationsErrorIcon.foreground": "#FF4500",
 		"notificationsInfoIcon.foreground": "#FFC837",
-		"notificationsWarningIcon.foreground": "#FFA500",
+		"notificationsWarningIcon.foreground": "#FFB700",
 
 		"panel.background": "#0E0E18",
 		"panel.border": "#202029",
@@ -193,7 +193,7 @@
 		"ports.iconRunningProcessForeground": "#00FF7F",
 		"problemsErrorIcon.foreground": "#FF4500",
 		"problemsInfoIcon.foreground": "#FFC837",
-		"problemsWarningIcon.foreground": "#FFA500",
+		"problemsWarningIcon.foreground": "#FFB700",
 		"progressBar.background": "#FFC837",
 
 		"quickInput.background": "#12121D",
@@ -389,6 +389,7 @@
 			"name": "Storage, Keyword",
 			"scope": [
 				"keyword.control.flow",
+				"keyword.operator.new",
 				"keyword.type",
 				"storage.modifier.async",
 				"storage.type"
@@ -400,9 +401,9 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"constant.other.color",
 				"keyword.operator",
 				"keyword.control",
+				"keyword.other",
 				"keyword.other.template",
 				"keyword.other.substitution",
 				"meta.tag"
@@ -489,8 +490,7 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#D26CF7"
@@ -509,6 +509,38 @@
 			],
 			"settings": {
 				"foreground": "#D7F76C"
+			}
+		},
+		{
+			"name": "Constant.other, SQL",
+			"scope": [
+				"constant.other.database-name",
+				"constant.other.table-name"
+			],
+			"settings": {
+				"foreground": "#FFCF7A"
+			}
+		},
+		{
+			"name": "Keyword.other, SQL",
+			"scope": [
+				"keyword.other.DML",
+				"keyword.other.DDL",
+				"keyword.other.DCL",
+				"keyword.other.order"
+			],
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Keyword.other.create/alias, SQL",
+			"scope": [
+				"keyword.other.alias",
+				"keyword.other.create"
+			],
+			"settings": {
+				"foreground": "#FF6682"
 			}
 		},
 		{
