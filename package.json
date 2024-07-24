@@ -28,5 +28,6 @@
         "path": "./themes/Depth of Midnight-color-theme.json"
       }
     ]
-  }
+  },
+  "icon": "./resources/icons/Depth_of_Midnight_icon.png"
 }
