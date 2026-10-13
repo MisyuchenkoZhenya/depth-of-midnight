@@ -1,16 +1,7 @@
-# depth-of-midnight README
+# Depth of Midnight
 
-## Working with Markdown
+A dark theme for midnight coding. The background stays deep, the interface keeps a quiet gold, and the syntax stays easy to read.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+![Depth of Midnight](screenshot.png)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+On the Marketplace it is listed as Depth of Midnight. The code in the picture is [`theme-preview.tsx`](theme-preview.tsx).

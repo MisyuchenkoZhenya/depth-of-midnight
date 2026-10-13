@@ -1,7 +1,7 @@
 {
   "name": "depth-of-midnight",
   "displayName": "Depth of Midnight",
-  "description": "The dark theme for midnight coding",
+  "description": "A dark theme for midnight coding.",
   "version": "0.0.7",
   "publisher": "SyntaxSpark",
   "engines": {
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/MisyuchenkoZhenya/depth-of-midnight-theme"
+    "url": "https://github.com/MisyuchenkoZhenya/depth-of-midnight"
   },
   "contributes": {
     "themes": [
