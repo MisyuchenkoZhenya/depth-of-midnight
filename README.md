@@ -4,4 +4,8 @@ A dark theme for midnight coding. The background stays deep, the interface keeps
 
 ![Depth of Midnight](screenshot.png)
 
-On the Marketplace it is listed as Depth of Midnight. The code in the picture is [`theme-preview.tsx`](theme-preview.tsx).
+Depth of Midnight Soft is the same theme with the contrast turned down.
+
+![Depth of Midnight Soft](screenshot-soft.png)
+
+Both come with the extension. The code in the pictures is [`theme-preview.tsx`](theme-preview.tsx).
