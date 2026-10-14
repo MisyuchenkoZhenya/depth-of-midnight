@@ -6,4 +6,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Add Depth of Midnight Soft, a quieter take on the same theme.
+- Add Depth of Midnight Bright Moon, a light variant on warm paper.

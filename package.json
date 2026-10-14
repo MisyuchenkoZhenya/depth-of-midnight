@@ -1,7 +1,7 @@
 {
   "name": "depth-of-midnight",
   "displayName": "Depth of Midnight",
-  "description": "A dark theme for midnight coding, with a softer variant.",
+  "description": "A dark theme for midnight coding, with a softer variant and a light one.",
   "version": "0.0.9",
   "publisher": "SyntaxSpark",
   "engines": {
@@ -14,6 +14,8 @@
     "theme",
     "dark",
     "dark theme",
+    "light",
+    "light theme",
     "SyntaxSpark"
   ],
   "repository": {
@@ -31,6 +33,11 @@
         "label": "Depth of Midnight Soft",
         "uiTheme": "vs-dark",
         "path": "./themes/Depth of Midnight Soft-color-theme.json"
+      },
+      {
+        "label": "Depth of Midnight Bright Moon",
+        "uiTheme": "vs",
+        "path": "./themes/Depth of Midnight Bright Moon-color-theme.json"
       }
     ]
   },
