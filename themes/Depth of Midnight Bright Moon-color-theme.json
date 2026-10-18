@@ -40,10 +40,10 @@
     
     "button.background": "#6B3A08",
     "button.foreground": "#F6F0E4",
-    "button.hoverBackground": "#8A4E0A",
+    "button.hoverBackground": "#A35C10",
     "button.secondaryBackground": "#DCC7A4A0",
     "button.secondaryForeground": "#3E342C",
-    "button.secondaryHoverBackground": "#DCC7A4A0",
+    "button.secondaryHoverBackground": "#C4AE8C",
     "button.border": "#DDD0BC",
     
     // Checkboxes
@@ -303,8 +303,8 @@
     "panelSectionHeader.border": "#DDD0BC",
     "panelSectionHeader.foreground": "#6E6256",
     "panelTitle.activeBorder": "#6B3A08",
-    "panelTitle.activeForeground": "#3E342C",
-    "panelTitle.inactiveForeground": "#6E6256",
+    "panelTitle.activeForeground": "#6B3A08",
+    "panelTitle.inactiveForeground": "#A68456",
     
     // ============================================================================
     // STATUS BAR
@@ -419,6 +419,7 @@
     // ============================================================================
     
     "focusBorder": "#6B3A0875",
+    "sash.hoverBorder": "#6B3A08",
     "contrastBorder": "#DDD0BC",
     
     // ============================================================================
@@ -1403,8 +1404,7 @@
         "support.function.magic.python"
       ],
       "settings": {
-        "foreground": "#984D00",
-        "fontStyle": "bold"
+        "foreground": "#984D00"
       }
     },
     {
@@ -1439,8 +1439,7 @@
         "entity.name.type.enum.cs"
       ],
       "settings": {
-        "foreground": "#703C91",
-        "fontStyle": "bold"
+        "foreground": "#703C91"
       }
     },
     {
@@ -1655,8 +1654,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#6B3A08",
-        "fontStyle": "bold"
+        "foreground": "#6B3A08"
       }
     },
     {
@@ -1778,8 +1776,7 @@
         "entity.name.function.macro.rust"
       ],
       "settings": {
-        "foreground": "#943171",
-        "fontStyle": "bold"
+        "foreground": "#943171"
       }
     },
     {

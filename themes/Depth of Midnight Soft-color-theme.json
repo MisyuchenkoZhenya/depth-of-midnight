@@ -19,11 +19,11 @@
     "activityBarTop.activeBorder": "#D1B473",
     "activityBarTop.background": "#16161F",
     "activityBarTop.dropBorder": "#D1B473",
-    "activityBarBadge.background": "#DDD0B4",
+    "activityBarBadge.background": "#E4C888",
     "activityBarBadge.foreground": "#16161F",
     
     // Badges and Icons
-    "badge.background": "#DDD0B4",
+    "badge.background": "#E4C888",
     "badge.foreground": "#16161F",
     "icon.foreground": "#CFD1D3",
     
@@ -40,10 +40,10 @@
     
     "button.background": "#D1B473",
     "button.foreground": "#16161F",
-    "button.hoverBackground": "#DBBB76",
+    "button.hoverBackground": "#E4C888",
     "button.secondaryBackground": "#54545DA0",
     "button.secondaryForeground": "#CFD1D3",
-    "button.secondaryHoverBackground": "#54545DA0",
+    "button.secondaryHoverBackground": "#72727E",
     "button.border": "#292931",
     
     // Checkboxes
@@ -303,8 +303,8 @@
     "panelSectionHeader.border": "#292931",
     "panelSectionHeader.foreground": "#A8ABAE",
     "panelTitle.activeBorder": "#D1B473",
-    "panelTitle.activeForeground": "#CFD1D3",
-    "panelTitle.inactiveForeground": "#A8ABAE",
+    "panelTitle.activeForeground": "#D1B473",
+    "panelTitle.inactiveForeground": "#B29C6C",
     
     // ============================================================================
     // STATUS BAR
@@ -419,6 +419,7 @@
     // ============================================================================
     
     "focusBorder": "#D1B47375",
+    "sash.hoverBorder": "#D1B473",
     "contrastBorder": "#292931",
     
     // ============================================================================
@@ -1403,8 +1404,7 @@
         "support.function.magic.python"
       ],
       "settings": {
-        "foreground": "#E6C593",
-        "fontStyle": "bold"
+        "foreground": "#E6C593"
       }
     },
     {
@@ -1439,8 +1439,7 @@
         "entity.name.type.enum.cs"
       ],
       "settings": {
-        "foreground": "#E69D83",
-        "fontStyle": "bold"
+        "foreground": "#E69D83"
       }
     },
     {
@@ -1655,8 +1654,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#D1B473",
-        "fontStyle": "bold"
+        "foreground": "#D1B473"
       }
     },
     {
@@ -1778,8 +1776,7 @@
         "entity.name.function.macro.rust"
       ],
       "settings": {
-        "foreground": "#B77ECE",
-        "fontStyle": "bold"
+        "foreground": "#B77ECE"
       }
     },
     {
